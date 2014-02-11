@@ -7,6 +7,15 @@
  * Version: 1.0
  */
 
+
+/**
+ * Adds a "Check for Plugin Updates" link to the toolbar
+ *
+ * @access      public
+ * @since       1.0
+ * @param 		$wp_admin_bar object Instance of the WP_Admin_Bar class
+ * @return      void
+*/
 function pw_force_updates_check_link( $wp_admin_bar ) {
 
 	if( ! current_user_can( 'install_plugins' ) ) {
@@ -42,6 +51,13 @@ function pw_force_updates_check_link( $wp_admin_bar ) {
 }
 add_action( 'admin_bar_menu', 'pw_force_updates_check_link', 999 );
 
+/**
+ * Process the request to force an updates check
+ *
+ * @access      public
+ * @since       1.0
+ * @return      void
+*/
 function pw_trigger_force_updates_check() {
 
 	if( ! isset( $_GET['action'] ) || 'force_plugin_updates_check' != $_GET['action'] ) {
