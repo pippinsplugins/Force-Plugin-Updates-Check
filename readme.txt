@@ -5,7 +5,7 @@ Contributors: mordauk
 Donate link: http://pippinsplugins.com/support-the-site
 Tags: Plugins, Update
 Requires at least: 3.5
-Tested up to: 3.9
+Tested up to: 4.1
 Stable Tag: 1.0
 
 Adds a link to the toolbar that allows site admins to force WordPress to run a check for plugin updates
