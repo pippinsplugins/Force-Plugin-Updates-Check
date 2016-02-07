@@ -70,7 +70,7 @@ function pw_trigger_force_updates_check() {
 
 	set_site_transient( 'update_plugins', null );
 
-	wp_safe_redirect( admin_url( 'index.php' ) ); exit;
+	wp_safe_redirect( network_admin_url( 'update-core.php' ) ); exit;
 
 }
 add_action( 'admin_init', 'pw_trigger_force_updates_check' );
