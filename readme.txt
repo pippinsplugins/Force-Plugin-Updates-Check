@@ -5,8 +5,8 @@ Contributors: mordauk
 Donate link: http://pippinsplugins.com/support-the-site
 Tags: Plugins, Update
 Requires at least: 3.5
-Tested up to: 4.1
-Stable Tag: 1.0
+Tested up to: 4.5
+Stable Tag: 1.0.1
 
 Adds a link to the toolbar that allows site admins to force WordPress to run a check for plugin updates
 
@@ -21,6 +21,10 @@ This is an extremely simple plugin that just adds a link to the toolbar that all
 3. Click this link anytime you need to force an update check to run
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Redirect to updates page instead of index.php
 
 = 1.0 =
 

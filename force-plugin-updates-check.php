@@ -4,7 +4,7 @@
  * Description: Adds a link to the toolbar that allows site admins to force WordPress to run a check for plugin updates
  * Author: Pippin Williamson
  * Author URI: http://pippinsplugins.com
- * Version: 1.0
+ * Version: 1.0.1
  */
 
 
